@@ -16,7 +16,14 @@
 """
 
 import pickle
+import re
+import numpy as np
 
-enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "rb"))
+
+enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
 
 
+
+
+
+print "Data points:", len(enron_data)
